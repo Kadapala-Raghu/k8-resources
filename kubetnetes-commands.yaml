@@ -23,4 +23,7 @@ $ kubectl exec -it multi-container -c almalinux -- bash  # TO particular contain
 
 ## Here all pods are sharing same IP and storage in K8
 
+$ kubectl apply -f fie.yaml # create pods
+
+
 
