@@ -36,3 +36,5 @@ $ echo -n "admin" | base64
 $ echo "encrypt-string" | base64 --decode
 
 $ kubectl describe Secret <secret-name-resource> 
+
+$ kubectl delete pods --all -n default # Delete the all pods
