@@ -17,10 +17,7 @@ spec:
         cpu: "150m"
 
 ###
+# Limits==requests
 
-Note: 
-
-Limits==requests
-
-but cannnot be limit<requests
+#  but cannnot be limit<requests
 
