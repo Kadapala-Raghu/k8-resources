@@ -31,4 +31,8 @@ $ kubectl get configmap # To view the config map
 
 $ kubectl describe <resource-name> <container-name> # To view the any resource of container
 
+$ echo -n "admin" | base64
 
+$ echo "encrypt-string" | base64 --decode
+
+$ kubectl describe Secret <secret-name-resource> 
