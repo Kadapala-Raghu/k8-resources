@@ -25,4 +25,8 @@ $ kubectl get pods -n expense # checking particular pod in Namespaces
 
 $ kubectl describe pods multi-container # Check the background action play for the pods
 
+$ kubectl exec -it multi-container -- bash # It will go inisde of the pod [ first pod ]
+
+$ kubectl exec -it multi-container -c almalinux -- bash  # TO particular container
+
 
