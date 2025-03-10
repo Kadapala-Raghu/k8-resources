@@ -38,3 +38,14 @@ $ echo "encrypt-string" | base64 --decode
 $ kubectl describe Secret <secret-name-resource> 
 
 $ kubectl delete pods --all -n default # Delete the all pods
+
+$ kubectl get svc # View the services 
+
+$ kubectl get pods -o wide # View the pod IP address 
+
+
+### Session 49 March-05 -- 45:00 min daggara doubt 
+
+
+$ kubectl get pods -o wide # View the in which IP is running that container 
+
