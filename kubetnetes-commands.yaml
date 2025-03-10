@@ -29,4 +29,6 @@ $ kubectl exec -it multi-container -- bash # It will go inisde of the pod [ firs
 
 $ kubectl exec -it multi-container -c almalinux -- bash  # TO particular container
 
+## Here all pods are sharing same IP and storage in K8
+
 
