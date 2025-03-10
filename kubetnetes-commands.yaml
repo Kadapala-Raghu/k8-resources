@@ -25,5 +25,10 @@ $ kubectl exec -it multi-container -c almalinux -- bash  # TO particular contain
 
 $ kubectl apply -f fie.yaml # create pods
 
+$ kubectl top pod # Checking how much POD consuming the CPU 
+
+$ kubectl get configmap # To view the config map
+
+$ kubectl describe <resource-name> <container-name> # To view the any resource of container
 
 
