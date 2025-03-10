@@ -1,13 +1,5 @@
 $ kubectl get namespace # Viewing namespaces
 
-    [ ec2-user@ip-172-31-38-82 ~ ]$ kubectl get namespaces
-    NAME              STATUS   AGE
-    default           Active   8m49s
-    kube-node-lease   Active   8m49s
-    kube-public       Active   8m49s
-    kube-system       Active   8m49s
-
-
 # Setting the namespace for a request 
 
 $ kubectl run nginx --image=nginx --namespace=<insert-namespace-name-here>
