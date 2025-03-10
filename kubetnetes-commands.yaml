@@ -19,3 +19,8 @@ $ kubectl delete -f 01-namespace.yaml
 
 $ $ kubectl apply -f 01-namespace.yaml
 
+$ kubectl get namespaces
+
+ kubectl get pods -n expense # checking particular pod in Namespaces
+
+ 
