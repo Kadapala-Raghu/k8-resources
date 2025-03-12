@@ -49,3 +49,6 @@ $ kubectl get pods -o wide # View the pod IP address
 
 $ kubectl get pods -o wide # View the in which IP is running that container 
 
+$ kubectl get svc ## below IP is cluster IP
+
+$ kubectl get pods -o wide # POds IP 
