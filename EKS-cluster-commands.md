@@ -112,4 +112,6 @@ kubectl get svc <svc_name> -o yaml              # YAML for service
 
 ---
 
-Would you like a one-page printable PDF cheat sheet of this? Or some hands-on YAML examples to try these commands out?
+$ kubectl get nodes -o wide
+
+$ kubectl get svc
