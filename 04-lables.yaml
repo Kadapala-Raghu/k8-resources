@@ -1,4 +1,4 @@
-kind: Lable
+kind: Pod
 apiVersion: v1 
 
 metadata:
