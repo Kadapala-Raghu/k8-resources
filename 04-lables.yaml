@@ -1,7 +1,7 @@
 kind: Pod
 apiVersion: v1
 metadata:
-  name: labels
+  name: lables
   labels:
     project: dev-infra-exepnse
     duration: 40-hours
