@@ -3,8 +3,8 @@ apiVersion: v1
 metadata:
   name: lables-expense
   lables:
-      project: dev-infra-exepnse
-      duration: 40 hours
+    project: dev-infra-exepnse
+    duration: 40 hours
 spec:
   containers:
   - name: nginx
