@@ -1,4 +1,4 @@
-## 🧰 **Kubectl Basic Commands**
+**Kubectl Basic Commands**
 
 ### 🔹 **1. Cluster Info**
 
