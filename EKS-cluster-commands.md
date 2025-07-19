@@ -1,5 +1,3 @@
-Here’s a handy list of **basic `kubectl` commands** you'll commonly use to work with Kubernetes (K8s) — perfect for daily DevOps tasks and EKS cluster work.
-
 ---
 
 ## 🧰 **Kubectl Basic Commands**
