@@ -4,7 +4,7 @@ metadata:
   name: labels
   labels:
     project: dev-infra-exepnse
-    duration: 40 hours
+    duration: 40-hours
 spec:
   containers:
   - name: nginx
