@@ -1,6 +1,6 @@
 **Kubectl Basic Commands**
 
-### 🔹 **1. Cluster Info**
+**1. Cluster Info**
 
 ```bash
 kubectl version                         # Show client and server version
@@ -11,7 +11,7 @@ kubectl get componentstatuses          # Check health of cluster components
 
 ---
 
-### 🔹 **2. Get Resources**
+ **2. Get Resources**
 
 ```bash
 kubectl get nodes                      # List all cluster nodes
@@ -25,7 +25,7 @@ kubectl get events                     # View recent events (for debugging)
 
 ---
 
-### 🔹 **3. Create / Apply Resources**
+**3. Create / Apply Resources**
 
 ```bash
 kubectl apply -f <file.yaml>           # Apply config from YAML file
@@ -34,7 +34,7 @@ kubectl create -f <file.yaml>          # Create resources from YAML
 
 ---
 
-### 🔹 **4. Delete Resources**
+**4. Delete Resources**
 
 ```bash
 kubectl delete -f <file.yaml>          # Delete from YAML file
@@ -44,7 +44,7 @@ kubectl delete svc <service_name>      # Delete a service
 
 ---
 
-### 🔹 **5. Describe & Inspect**
+**5. Describe & Inspect**
 
 ```bash
 kubectl describe pod <pod_name>        # Detailed info about a pod
@@ -54,7 +54,7 @@ kubectl describe deployment <dep_name> # Details of a deployment
 
 ---
 
-### 🔹 **6. Logs & Debug**
+**6. Logs & Debug**
 
 ```bash
 kubectl logs <pod_name>                # Show logs of a pod
@@ -64,7 +64,7 @@ kubectl exec -it <pod_name> -- bash    # SSH into a pod (if bash is supported)
 
 ---
 
-### 🔹 **7. Rollout & Scaling**
+**7. Rollout & Scaling**
 
 ```bash
 kubectl rollout status deployment/<deployment_name>   # Check rollout status
@@ -74,7 +74,7 @@ kubectl scale deployment <deployment_name> --replicas=3  # Scale deployment
 
 ---
 
-### 🔹 **8. Namespace Management**
+**8. Namespace Management**
 
 ```bash
 kubectl get namespaces                 # List all namespaces
@@ -84,7 +84,7 @@ kubectl delete namespace <name>        # Delete a namespace
 
 ---
 
-### 🔹 **9. Context & Configuration**
+**9. Context & Configuration**
 
 ```bash
 kubectl config get-contexts           # Show all contexts
@@ -94,7 +94,7 @@ kubectl config current-context         # Show current context
 
 ---
 
-### 🔹 **10. Port Forwarding & Access**
+**10. Port Forwarding & Access**
 
 ```bash
 kubectl port-forward svc/<svc_name> 8080:80     # Forward local 8080 to pod/service port 80
