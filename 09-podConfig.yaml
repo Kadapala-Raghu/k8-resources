@@ -8,4 +8,4 @@ spec:
     image: myconfig
     envFrom: 
     - configMapRef:
-      name: myconfig
+        name: myconfig
