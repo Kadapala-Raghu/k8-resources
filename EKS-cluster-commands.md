@@ -115,3 +115,5 @@ kubectl get svc <svc_name> -o yaml              # YAML for service
 $ kubectl get nodes -o wide
 
 $ kubectl get svc
+
+$ kubectl top pod   ===> pod resource utilization
