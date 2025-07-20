@@ -117,3 +117,5 @@ $ kubectl get nodes -o wide
 $ kubectl get svc
 
 $ kubectl top pod   ===> pod resource utilization
+
+$ kubectl delete pods --all -n default
