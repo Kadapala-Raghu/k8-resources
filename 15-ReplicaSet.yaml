@@ -6,7 +6,7 @@ metadata:
     app: frontend
     tier: web
 spec:
-  replicaset: 3
+  replicas: 3
   selector:
       # replicaset use these labels to find the pods for creating number of replicas
     matchLabels:
