@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: nginx-np
 spec:
-  type: NodePort
+  type: NodePort  ### Here is the declration of NodePort mentioning 
   selector: # labels are used as selectors
     project: expense
     component: backend
